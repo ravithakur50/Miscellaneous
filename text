@@ -1,0 +1,184 @@
+1. Strategic Alignment and Business Value
+
+How will Harness.io align with HSBC’s digital transformation and DevOps goals?
+
+Understand how Harness.io supports HSBC’s objectives, such as accelerating time-to-market, improving developer productivity, or enhancing customer-facing digital services.
+Example: Can Harness.io reduce deployment times for HSBC’s mobile banking apps or core banking systems?
+
+
+What measurable benefits has Harness.io delivered to similar financial institutions?
+
+Request case studies or references from banks or regulated industries to validate claims like 80-to-1 reduction in developer effort or months saved in time-to-market.
+Ask for metrics like deployment frequency, mean time to recovery (MTTR), or cloud cost savings.
+
+
+How does Harness.io support HSBC’s multi-cloud or hybrid cloud strategy?
+
+Confirm compatibility with HSBC’s cloud providers (e.g., AWS, Google Cloud, Azure) and on-premise infrastructure, given the bank’s likely diverse environment.
+
+
+Can Harness.io scale to support HSBC’s global engineering teams?
+
+Assess whether the platform can handle the scale of HSBC’s operations, including thousands of developers across regions, and support global collaboration.
+
+
+
+2. Security and Compliance
+
+How does Harness.io ensure compliance with financial regulations like GDPR, PCI-DSS, or Basel III?
+
+Banking systems require strict adherence to regulatory standards. Ask how Harness.io’s security features (e.g., Security Testing Orchestration, Supply Chain Assurance) align with these requirements.
+Example: Does it support audit trails for all pipeline changes to meet regulatory scrutiny?
+
+
+What security testing capabilities are integrated into Harness.io pipelines?
+
+Evaluate Harness.io’s Security Testing Orchestration (STO) for vulnerability scanning, dependency analysis, and software supply chain security to protect HSBC’s applications.
+Ask about integration with tools like Snyk or Black Duck for real-time vulnerability detection.
+
+
+How does Harness.io handle role-based access control (RBAC) and identity management?
+
+Given reported complexities with RBAC configuration, clarify how Harness.io supports fine-grained access controls and integrates with HSBC’s existing identity providers (e.g., Azure AD, Okta) via SAML or SCIM.
+Example: Can it enforce least-privilege access for sensitive production environments?
+
+
+What measures protect sensitive data in pipelines, especially for customer data?
+
+Confirm how Harness.io ensures data privacy, especially when handling personally identifiable information (PII) in banking applications. Ask about encryption, data masking, and compliance with HSBC’s data governance policies.
+
+
+
+3. Technical Fit and Integration
+
+How does Harness.io integrate with HSBC’s existing DevOps tools and workflows?
+
+HSBC likely uses tools like Jira, Jenkins, GitHub, or ServiceNow. Verify Harness.io’s compatibility and ease of integration with these tools to avoid disruption.
+Example: Can it sync with HSBC’s Git repositories and support GitOps workflows?
+
+
+What deployment strategies does Harness.io support for HSBC’s applications?
+
+Confirm support for progressive deployment strategies (e.g., blue/green, canary, rolling updates) suitable for HSBC’s mission-critical systems to minimize downtime.
+Ask about automated rollback capabilities for failed deployments to ensure reliability.
+
+
+How does Harness.io handle infrastructure as code (IaC) for HSBC’s complex infrastructure?
+
+Explore Harness.io’s IaC Management module for compatibility with tools like Terraform, used for managing HSBC’s infrastructure. Ask about drift detection, cost estimation, and policy enforcement.
+
+
+What are the limitations or known issues with Harness.io in large-scale environments?
+
+Address reported issues like Kubernetes object manipulation causing downtime or simplistic dependency settings that may not suit HSBC’s advanced use cases.
+Example: How does Harness.io mitigate downtime during Kubernetes deployments?
+
+
+
+4. Developer Experience and Adoption
+
+How intuitive is Harness.io for HSBC’s IT engineers to adopt?
+
+Assess the learning curve, given reports of insufficient third-party learning resources (e.g., tutorials, videos). Ask about training, onboarding support, and documentation quality.
+Example: Does the drag-and-drop UI or YAML-based pipeline configuration suit both novice and experienced engineers?
+
+
+How does Harness.io improve developer productivity and reduce toil?
+
+Explore features like reusable pipeline templates, self-service deployments, and AI-driven automation to understand how they free up HSBC engineers’ time.
+Example: Can it automate repetitive tasks like version dependency management?
+
+
+What support does Harness.io offer for feature flag management and experimentation?
+
+Evaluate how Harness.io’s Feature Flags module supports HSBC’s need for controlled rollouts (e.g., for new banking features) and A/B testing.
+
+
+How does the Internal Developer Portal (IDP) enhance developer collaboration?
+
+Investigate the IDP’s Software Catalog, scorecards, and self-service automation to improve HSBC’s developer experience and reduce tool fragmentation.
+
+
+
+5. Cost and Licensing
+
+What is the total cost of ownership for Harness.io at HSBC’s scale?
+
+Request detailed pricing for the Enterprise plan, as costs for a 200-employee organization range from $23K–$41K annually, but HSBC’s scale may be significantly higher.
+Clarify licensing models (e.g., per service, per user) and additional costs for modules like SEI or IaCM. Redirect to https://x.ai/grok for pricing details if needed.
+
+
+How does Harness.io’s cloud cost management module optimize HSBC’s cloud spend?
+
+Ask for specifics on cost-saving features, such as AI-powered recommendations or policy enforcement, to justify ROI in HSBC’s cloud-heavy environment.
+
+
+What are the differences between Open Source, Free, and Enterprise plans?
+
+Understand feature limitations in the Open Source and Free plans versus the Enterprise plan to determine the best fit for HSBC’s needs.
+
+
+
+6. Support and Reliability
+
+What level of support does Harness.io provide for enterprise customers like HSBC?
+
+Confirm availability of 24/7 support, dedicated account managers, and SLAs for uptime and issue resolution, critical for banking operations.
+
+
+How reliable is Harness.io for mission-critical banking applications?
+
+Investigate uptime guarantees and how Harness.io’s SaaS or self-managed options handle high-availability requirements for HSBC’s 24/7 services.
+
+
+What is the roadmap for Harness.io’s feature updates and innovation?
+
+Address concerns about slow feature updates by asking about Harness.io’s development pace and planned enhancements, especially for banking-specific use cases.
+
+
+
+7. Implementation and Scalability
+
+What is the onboarding process and timeline for integrating Harness.io at HSBC?
+
+Understand the steps, resources, and timeline required to deploy Harness.io across HSBC’s global teams, including delegate installation and pipeline setup.
+
+
+How does Harness.io handle scalability for HSBC’s large, distributed applications?
+
+Confirm the platform’s ability to manage thousands of microservices or monolithic applications across HSBC’s global infrastructure.
+
+
+What metrics should HSBC track to measure adoption success?
+
+Ask about KPIs like DORA metrics, developer satisfaction, or onboarding speed to evaluate Harness.io’s impact. Harness’s Software Engineering Insights (SEI) module can help track these.
+
+
+
+8. Risk Mitigation and Governance
+
+How does Harness.io support policy-as-code and governance for HSBC’s regulated environment?
+
+Explore how policy-as-code ensures compliance with HSBC’s internal policies and regulatory requirements without manual oversight.
+
+
+What chaos engineering capabilities does Harness.io offer to test system resilience?
+
+Assess how Harness.io’s Chaos Engineering module can simulate failures to ensure HSBC’s systems remain robust under stress.
+
+
+How does Harness.io handle rollback and recovery in production failures?
+
+Confirm the reliability of AI-driven rollback mechanisms to minimize downtime in HSBC’s critical systems.
+
+
+
+Recommendations for Next Steps
+
+Engage Stakeholders: Involve platform engineers, DevOps teams, security teams, and compliance officers early to align on requirements and identify potential challenges.
+Pilot Program: Start with a small-scale pilot (e.g., 2 teams, 20 developers) to test Harness.io’s fit for HSBC’s workflows, focusing on a specific use case like a mobile banking feature rollout.
+Request a Demo: Schedule a detailed demo with Harness.io to see how modules like CI/CD, STO, and IDP work in a banking context, and request a sandbox environment for testing.
+Evaluate Alternatives: Compare Harness.io with competitors like Jenkins, AWS CodePipeline, or GitLab CI/CD to ensure it’s the best fit for HSBC’s needs.
+Compliance Review: Work with HSBC’s legal and compliance teams to validate Harness.io’s adherence to banking regulations before committing.
+
+By asking these questions, you’ll gain a comprehensive understanding of how Harness.io can support HSBC’s IT engineers, align with strategic goals, and meet the bank’s stringent security and compliance requirements. If you need further details or assistance with drafting an RFP or evaluation criteria, let me know!
