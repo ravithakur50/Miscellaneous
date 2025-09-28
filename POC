@@ -1,0 +1,69 @@
+RAG Dev Environment with AWS Bedrock – Task Breakdown
+
+
+Phase 1: POC Setup Planning
+	1. Define POC Objectives
+	• Clarify business and technical outcomes (e.g., accurate document Q&A, velocity of retrieval).
+	• Outcome: Documented POC success criteria and measurable benchmarks.
+	2. Stakeholder Identification
+	• Pinpoint core users, sponsors, and technical contacts.
+	• Outcome: Stakeholder map and pilot user group defined.
+	3. Requirements Collection
+	• Collect initial functional and non-functional requirements (data sources, security, latency needs).
+	• Outcome: Consolidated requirements document.
+
+Phase 2: Cloud Environment Preparation
+1. AWS Account Setup
+• Confirm or create isolated AWS account/project for the POC (ideally development or sandbox).
+• Outcome: Dedicated, compliant AWS environment.
+2. Bedrock Model Activation
+• Request/enable access to selected Bedrock models (e.g., Claude, Titan embeddings).
+• Outcome: Service availability confirmed by AWS console or automated test.
+3. Network & Security Preparation
+• Set up VPC, IAM roles, audit logging, and apply least-privilege access controls for the project.
+• Outcome: Clean environment with base security posture.
+
+Phase 3: Data Preparation & Ingestion
+1. Source Data Selection
+• Choose initial knowledge base: Confluence export, internal FAQs, policy docs, or sample corpus.
+• Outcome: Sample/document corpus ready for ingestion.
+2. Data Extraction & Cleansing
+• Build scripts/functions to fetch, clean, and normalize text content.
+• Outcome: Structured data files (CSV, JSON) in S3, free of noise and duplicates.
+3. Metadata Enrichment
+• Add useful tags (source, creation date, owner, topic) to each document or chunk.
+• Outcome: Enriched dataset supporting better retrieval.
+
+Phase 4: Embedding & Vector Store Setup
+1. Embedding Generation
+• Use Titan embeddings (Bedrock API) to convert text chunks to vector representations.
+• Outcome: Embeddings stored; indexed with identifiers.
+2. Vector Database Deployment
+• Deploy and configure a vector store (e.g., Amazon OpenSearch, or Pinecone for approved pilots).
+• Outcome: Vector DB operational, accessible via API.
+3. Ingestion & Index Testing
+• Validate retrieval via test queries (ensure top-k document accuracy).
+• Outcome: Queries return expected relevant results.
+
+
+Phase 6: User Interface & Pilot Testing
+1. Simple Frontend Prototype
+• Build UI (web app or Teams plugin) that connects to backend pipeline.
+• Outcome: Usable interface for pilot users.
+2. Feedback & Evaluation Mechanism
+• Implement feedback form; log user rating and qualitative comments with each query result.
+• Outcome: Feedback data captured for tuning and reporting.
+3. Sample User Testing
+• Onboard 10–20 internal pilot users to interact and submit evaluation data.
+• Outcome: Performance report (accuracy, latency, relevance) vs POC KPIs.
+
+Phase 7: Review, Iteration, and POC Closure
+1. Analyze Results
+• Review performance data, user feedback, error logs, and hallucination rates.
+• Outcome: Summary analysis and recommendations.
+2. Documentation & Knowledge Transfer
+• Write process documentation: architecture, key learnings, next phase recommendations.
+• Outcome: Final POC package for stakeholder review.
+3. POC Debrief
+• Host closure meeting; collect signoff, plan for next steps if successful.
+Outcome: Decision on further scale, model tuning, or integration.
