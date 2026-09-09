@@ -1,0 +1,94 @@
+**Evaluation of the current nomination**
+
+This is a solid, credible internal nomination. It clearly shows a real operating model (people + process + platform), a repeatable delivery approach (“Data Transformation Production Line”), a governance hierarchy, a data-quality lifecycle, and intentional linkage to HSBC’s AM Big 5 strategic pillars. The structure of “how we meet the award criteria” is sensible and the content is substantive.
+
+However, for a competitive **Data Strategy in Action** panel it is not yet world-class. The main weaknesses are:
+
+- Too long and dense — panels skim. This reads like an operating manual rather than a compelling case.
+- Benefits are mostly qualitative; quantified outcomes and before/after evidence are thin or missing.
+- The story is process-heavy and outcome-light. Strategy-to-execution is claimed but the “so what” for clients, revenue, risk, or productivity is not sharp enough.
+- Language is corporate and repetitive. Words such as “standardised”, “embedding”, “enabling”, “strengthening” appear frequently without concrete proof.
+- No crisp headline achievement, no clear “before vs after”, and limited evidence of scale or adoption metrics.
+- The “How We Lead” section is incomplete in the second image and feels bolted on.
+
+It demonstrates good work. It does not yet *prove* exceptional impact in a way that forces a panel to score it highly against stronger external or peer submissions.
+
+---
+
+**Recommended approach for a stronger submission**
+
+Aim for **1.5–2 pages maximum**. Use a tight structure that panels love:
+
+1. One-sentence punchline + strategic context  
+2. What we actually built (the intervention)  
+3. How it meets the award criteria (tight mapping)  
+4. Measured impact (the decisive section)  
+5. Why this is lasting / scalable  
+6. How We Lead (short)
+
+Below is a rewritten, panel-ready version that keeps your substance, sharpens the narrative, and elevates the language while remaining truthful to the material you provided.
+
+---
+
+**Award Nomination: Data Strategy in Action Award**  
+**(B/GI – Technology & Data)**
+
+**Team / Programme:** AM Data Programme – Data & AI Operating Model
+
+**Headline**  
+We translated HSBC’s Data Strategy into a repeatable, business-owned operating system that delivers trusted data products at scale, reduces manual effort, strengthens controls, and accelerates decision-making across Asset Management.
+
+**Strategic Context**  
+The programme exists to turn strategy into execution. It directly supports the AM Big 5 Strategic Pillars — Strengthen HSBC collaboration, Lead in growth markets, Scale alternatives and high-alpha capabilities, Innovate with AI, and Simplify and invest for growth — by building trusted data foundations and scalable AI capabilities that make the business more competitive.
+
+**What We Built**  
+We redesigned the operating model so outcomes are no longer dependent on technology alone. Four interlocking changes underpin delivery:
+
+1. **Data & AI Operating Model** – Clear ownership, shared accountability and cross-business collaboration so data products are adopted, not just delivered.  
+2. **Enhanced Data Stores & Business Data Layer** – A single trusted access point where data is created once and reused many times, dramatically reducing End-User Computing (EUC) proliferation and duplication.  
+3. **Data Quality Management** – Automated quality controls at source through a new application, embedded in the Aether ecosystem, with a defined lifecycle (Define → Create → Check → Report → Remediate). Business rules are written in plain language; AI assists translation into technical controls while preserving auditability.  
+4. **Repeatable Delivery Model (“Data Transformation Production Line”)** – Foundational strategic enablers (Aether, ownership, quality tooling) are built first, then scaled into Contextual Data Products (CDPs) that remain traceable to Generic Data Products (GDPs) aligned to the HSBC Enterprise Data Model.
+
+**How We Meet the Award Criteria**
+
+**1. Data Strategy Alignment (tangible outcomes through execution and adoption)**  
+The programme is explicitly designed to move strategy into production. Business Domain Owners, Product Owners and Process Owners now hold clear accountability. DAO teams deliver end-to-end data products; IT ensures reliable platforms and resilience. The result is a governed, reusable data layer rather than one-off projects.
+
+**2. Data Foundations & Quality**  
+We implemented a clear governance hierarchy (Domain → Data Product → Attributes) and operationalised quality across the full lifecycle. Exceptions are evidence-based, routed, and remediated with controlled recovery. Standard dimensions (accuracy, completeness, consistency, timeliness, validity, uniqueness, integrity) are applied consistently.
+
+**3. Simplification & Standardisation**  
+A single Business Data Layer plus GDP/CDP model eliminates redundant sourcing. Data is created once and consumed many times. The Production Line approach supports both legacy modernisation and new strategic use cases without reinventing foundations.
+
+**4. Measurable Business Impact**  
+- Reduced manual cleansing and reconciliation effort, freeing capacity for decision-making.  
+- Faster 360° client views and servicing.  
+- Accelerated time-to-market and RFP responses through streamlined sourcing.  
+- Lower EUC reliance and stronger controls, improving risk posture and regulatory confidence.  
+- Quantifiable metrics (cycle-time reduction, EUC reduction, adoption/usage, DQ exception rates) are tracked from rollout into operations.
+
+**5. Innovation & Effective Use of Data**  
+Aether enables business users (not only data experts) to define rules in plain language. AI-assisted translation into technical DQ specifications improves speed and consistency while keeping intent explicit and auditable. CDPs are discoverable in the Data Marketplace integrated with Group Data Fabric.
+
+**6. Scale, Reuse & Adoption**  
+The GDP → CDP model and Production Line are deliberately designed for reuse. Vertical workstreams deliver quick wins while horizontal capabilities scale across the organisation. Self-service consumption patterns are built in.
+
+**7. Collaboration**  
+The operating model is explicitly cross-functional (Business, DAO, IT) with clear RACI. Structured workshops and Steering Committee governance keep prioritisation aligned to business value and complexity.
+
+**8. How We Lead**  
+We think customer first (better client views and faster servicing), deliver measurable value (productivity, speed, control), and succeed together through shared ownership and transparent decision-making.
+
+**Why This Deserves the Award**  
+Most data programmes stop at technology or governance documents. This one has changed how people work, how data is owned, how quality is enforced, and how products are consumed — at scale and with a reusable operating system. It is strategy made operational, measurable, and durable.
+
+---
+
+**Suggestions to strengthen it further before submission**
+
+- Insert 3–5 specific quantified results if you have them (e.g., “X% reduction in EUCs”, “Y days faster RFP cycle”, “Z% of priority data domains now under the new model”). Even directional numbers with timeframes are powerful.  
+- Add one short client or business-user quote if available.  
+- Keep any supporting appendix (metrics dashboard, RACI, sample DQ rule) separate so the core narrative stays tight.  
+- Ensure the final document is clean, well-formatted, and free of the red underlines visible in the screenshots.
+
+Would you like me to refine any section further, add placeholder metrics language, or produce a shorter one-page version?
