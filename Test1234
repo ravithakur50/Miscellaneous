@@ -1,94 +1,657 @@
-**Evaluation of the current nomination**
+Yes. For Copilot, I would make the prompt **very explicit about hierarchy, page layout, Confluence macros, Jira integration, and the visual experience**. You want Copilot to behave like a **senior ITPM + Confluence architect**, not simply generate a status page.
 
-This is a solid, credible internal nomination. It clearly shows a real operating model (people + process + platform), a repeatable delivery approach (“Data Transformation Production Line”), a governance hierarchy, a data-quality lifecycle, and intentional linkage to HSBC’s AM Big 5 strategic pillars. The structure of “how we meet the award criteria” is sensible and the content is substantive.
+You can paste the following as one prompt:
 
-However, for a competitive **Data Strategy in Action** panel it is not yet world-class. The main weaknesses are:
+# Role
 
-- Too long and dense — panels skim. This reads like an operating manual rather than a compelling case.
-- Benefits are mostly qualitative; quantified outcomes and before/after evidence are thin or missing.
-- The story is process-heavy and outcome-light. Strategy-to-execution is claimed but the “so what” for clients, revenue, risk, or productivity is not sharp enough.
-- Language is corporate and repetitive. Words such as “standardised”, “embedding”, “enabling”, “strengthening” appear frequently without concrete proof.
-- No crisp headline achievement, no clear “before vs after”, and limited evidence of scale or adoption metrics.
-- The “How We Lead” section is incomplete in the second image and feels bolted on.
+Act as a **world-class IT Program Management (ITPM) leader, Enterprise PMO architect, and Atlassian Confluence/Jira solution architect**.
 
-It demonstrates good work. It does not yet *prove* exceptional impact in a way that forces a panel to score it highly against stronger external or peer submissions.
+I need you to design and create a **production-ready Confluence Program Control Tower** for managing a large technology program.
 
----
+Do NOT create a simple project status page.
 
-**Recommended approach for a stronger submission**
+Create a **professional executive-grade Program Control Tower** that provides end-to-end visibility from:
 
-Aim for **1.5–2 pages maximum**. Use a tight structure that panels love:
+**Strategy → Roadmap → Feature → Quarter → Release → Sprint → Story/Task**
 
-1. One-sentence punchline + strategic context  
-2. What we actually built (the intervention)  
-3. How it meets the award criteria (tight mapping)  
-4. Measured impact (the decisive section)  
-5. Why this is lasting / scalable  
-6. How We Lead (short)
-
-Below is a rewritten, panel-ready version that keeps your substance, sharpens the narrative, and elevates the language while remaining truthful to the material you provided.
+and allows executives, Product Managers, Engineering Managers, Scrum Masters, QA, Architects, and delivery teams to see the level of detail relevant to them.
 
 ---
 
-**Award Nomination: Data Strategy in Action Award**  
-**(B/GI – Technology & Data)**
+# 1. Overall objective
 
-**Team / Programme:** AM Data Programme – Data & AI Operating Model
+Create a Confluence space/page hierarchy that acts as the **single management/control layer for the program**.
 
-**Headline**  
-We translated HSBC’s Data Strategy into a repeatable, business-owned operating system that delivers trusted data products at scale, reduces manual effort, strengthens controls, and accelerates decision-making across Asset Management.
+The landing page must answer these questions within 30 seconds:
 
-**Strategic Context**  
-The programme exists to turn strategy into execution. It directly supports the AM Big 5 Strategic Pillars — Strengthen HSBC collaboration, Lead in growth markets, Scale alternatives and high-alpha capabilities, Innovate with AI, and Simplify and invest for growth — by building trusted data foundations and scalable AI capabilities that make the business more competitive.
-
-**What We Built**  
-We redesigned the operating model so outcomes are no longer dependent on technology alone. Four interlocking changes underpin delivery:
-
-1. **Data & AI Operating Model** – Clear ownership, shared accountability and cross-business collaboration so data products are adopted, not just delivered.  
-2. **Enhanced Data Stores & Business Data Layer** – A single trusted access point where data is created once and reused many times, dramatically reducing End-User Computing (EUC) proliferation and duplication.  
-3. **Data Quality Management** – Automated quality controls at source through a new application, embedded in the Aether ecosystem, with a defined lifecycle (Define → Create → Check → Report → Remediate). Business rules are written in plain language; AI assists translation into technical controls while preserving auditability.  
-4. **Repeatable Delivery Model (“Data Transformation Production Line”)** – Foundational strategic enablers (Aether, ownership, quality tooling) are built first, then scaled into Contextual Data Products (CDPs) that remain traceable to Generic Data Products (GDPs) aligned to the HSBC Enterprise Data Model.
-
-**How We Meet the Award Criteria**
-
-**1. Data Strategy Alignment (tangible outcomes through execution and adoption)**  
-The programme is explicitly designed to move strategy into production. Business Domain Owners, Product Owners and Process Owners now hold clear accountability. DAO teams deliver end-to-end data products; IT ensures reliable platforms and resilience. The result is a governed, reusable data layer rather than one-off projects.
-
-**2. Data Foundations & Quality**  
-We implemented a clear governance hierarchy (Domain → Data Product → Attributes) and operationalised quality across the full lifecycle. Exceptions are evidence-based, routed, and remediated with controlled recovery. Standard dimensions (accuracy, completeness, consistency, timeliness, validity, uniqueness, integrity) are applied consistently.
-
-**3. Simplification & Standardisation**  
-A single Business Data Layer plus GDP/CDP model eliminates redundant sourcing. Data is created once and consumed many times. The Production Line approach supports both legacy modernisation and new strategic use cases without reinventing foundations.
-
-**4. Measurable Business Impact**  
-- Reduced manual cleansing and reconciliation effort, freeing capacity for decision-making.  
-- Faster 360° client views and servicing.  
-- Accelerated time-to-market and RFP responses through streamlined sourcing.  
-- Lower EUC reliance and stronger controls, improving risk posture and regulatory confidence.  
-- Quantifiable metrics (cycle-time reduction, EUC reduction, adoption/usage, DQ exception rates) are tracked from rollout into operations.
-
-**5. Innovation & Effective Use of Data**  
-Aether enables business users (not only data experts) to define rules in plain language. AI-assisted translation into technical DQ specifications improves speed and consistency while keeping intent explicit and auditable. CDPs are discoverable in the Data Marketplace integrated with Group Data Fabric.
-
-**6. Scale, Reuse & Adoption**  
-The GDP → CDP model and Production Line are deliberately designed for reuse. Vertical workstreams deliver quick wins while horizontal capabilities scale across the organisation. Self-service consumption patterns are built in.
-
-**7. Collaboration**  
-The operating model is explicitly cross-functional (Business, DAO, IT) with clear RACI. Structured workshops and Steering Committee governance keep prioritisation aligned to business value and complexity.
-
-**8. How We Lead**  
-We think customer first (better client views and faster servicing), deliver measurable value (productivity, speed, control), and succeed together through shared ownership and transparent decision-making.
-
-**Why This Deserves the Award**  
-Most data programmes stop at technology or governance documents. This one has changed how people work, how data is owned, how quality is enforced, and how products are consumed — at scale and with a reusable operating system. It is strategy made operational, measurable, and durable.
+1. What is the overall health of the program?
+2. What changed since the previous reporting period?
+3. Are we on track against the roadmap?
+4. What are we delivering this quarter?
+5. Which features are at risk?
+6. What releases are coming?
+7. How are the current sprints performing?
+8. What are the top risks/issues/dependencies?
+9. What decisions are required from leadership?
+10. What milestones are coming in the next 30 days?
+11. Can I drill down from a roadmap feature to its quarter, release, sprint, and Jira work items?
 
 ---
 
-**Suggestions to strengthen it further before submission**
+# 2. Create this Confluence hierarchy
 
-- Insert 3–5 specific quantified results if you have them (e.g., “X% reduction in EUCs”, “Y days faster RFP cycle”, “Z% of priority data domains now under the new model”). Even directional numbers with timeframes are powerful.  
-- Add one short client or business-user quote if available.  
-- Keep any supporting appendix (metrics dashboard, RACI, sample DQ rule) separate so the core narrative stays tight.  
-- Ensure the final document is clean, well-formatted, and free of the red underlines visible in the screenshots.
+Create the following structure:
 
-Would you like me to refine any section further, add placeholder metrics language, or produce a shorter one-page version?
+PROGRAM / PROJECT
+│
+├── 00 — PROGRAM CONTROL TOWER
+│
+├── 01 — STRATEGY & OBJECTIVES
+│
+├── 02 — PRODUCT / FEATURE ROADMAP
+│
+├── 03 — QUARTERLY DELIVERY
+│     ├── Q1
+│     ├── Q2
+│     ├── Q3
+│     └── Q4
+│
+├── 04 — RELEASE & MILESTONE DASHBOARD
+│
+├── 05 — SPRINT / DELIVERY DASHBOARD
+│
+├── 06 — RAID CONTROL CENTER
+│     ├── Risks
+│     ├── Issues
+│     ├── Dependencies
+│     └── Decisions
+│
+├── 07 — PROGRAM KPIs & METRICS
+│
+├── 08 — FINANCIAL / RESOURCE MANAGEMENT
+│
+├── 09 — QUALITY & TESTING
+│
+├── 10 — GOVERNANCE / MEETINGS
+│
+└── 11 — PROJECT DOCUMENTATION
+
+The most important page is:
+
+**00 — PROGRAM CONTROL TOWER**
+
+---
+
+# 3. Design philosophy
+
+Use a **Control Tower / Command Center** design.
+
+The page must NOT look like a long Word document.
+
+Use:
+
+* Clear visual hierarchy
+* Section headers
+* Status indicators
+* Tables
+* Jira macros wherever possible
+* Roadmap/timeline views
+* KPI cards where supported
+* Expand/collapse sections
+* Page links
+* Jira filters
+* Progress indicators
+* Risk heatmaps where supported
+* Executive summary
+* Drill-down navigation
+
+Prioritize **information density without clutter**.
+
+The first screen should contain the most important information.
+
+---
+
+# 4. Program Control Tower landing page
+
+Create the following structure on the main page.
+
+## HEADER
+
+Display:
+
+**PROGRAM CONTROL TOWER**
+
+Program Name: [PROGRAM NAME]
+
+Program Manager: [NAME]
+
+Reporting Period: [CURRENT QUARTER]
+
+Last Updated: [DATE]
+
+Use a clean professional enterprise design.
+
+---
+
+# 5. Executive Health section
+
+Immediately below the header create:
+
+## EXECUTIVE HEALTH
+
+Create a status table:
+
+| Area            | Status   | Trend | Commentary |
+| --------------- | -------- | ----- | ---------- |
+| Overall Program | 🟢/🟡/🔴 | ↑/→/↓ | ...        |
+| Scope           | 🟢/🟡/🔴 | ↑/→/↓ | ...        |
+| Schedule        | 🟢/🟡/🔴 | ↑/→/↓ | ...        |
+| Budget          | 🟢/🟡/🔴 | ↑/→/↓ | ...        |
+| Quality         | 🟢/🟡/🔴 | ↑/→/↓ | ...        |
+| Resources       | 🟢/🟡/🔴 | ↑/→/↓ | ...        |
+| Dependencies    | 🟢/🟡/🔴 | ↑/→/↓ | ...        |
+| Risks           | 🟢/🟡/🔴 | ↑/→/↓ | ...        |
+
+Use clear RAG status.
+
+Do not use arbitrary colors if Confluence has native status macros available.
+
+---
+
+# 6. "What's Changed?" section
+
+Create a highly visible section:
+
+## 🔔 WHAT'S CHANGED SINCE LAST UPDATE
+
+Show the 3–5 most important changes.
+
+Example:
+
+* 🟢 Feature A moved to production
+* 🟡 Feature B slipped by one sprint
+* 🔴 Security dependency escalated
+* 🟢 Release R3 completed successfully
+
+Then create:
+
+## DECISIONS REQUIRED
+
+Display decisions that require leadership action.
+
+For every decision show:
+
+* Decision
+* Owner
+* Decision required by
+* Impact
+* Status
+
+This section should be optimized for executives.
+
+---
+
+# 7. KPI dashboard
+
+Create:
+
+## PROGRAM KPIs
+
+Display key metrics as visual KPI cards if supported.
+
+Include:
+
+* Total Features
+* Features Completed
+* Features At Risk
+* Releases
+* Releases On Track
+* Sprint Completion %
+* Roadmap Delivery %
+* Defect Leakage %
+* Open Critical Risks
+* Open Dependencies
+* Budget Consumption %
+* Resource Utilization %
+
+Use real Jira data wherever possible.
+
+Do NOT create fake live data.
+
+If Jira data is not available, clearly create placeholders and identify where Jira JQL needs to be configured.
+
+---
+
+# 8. ROADMAP section
+
+Create:
+
+## 🗺️ PRODUCT / FEATURE ROADMAP
+
+The roadmap must support:
+
+**Feature → Quarter → Release → Sprint**
+
+Create a visual roadmap using Confluence's available timeline/roadmap capabilities.
+
+Example structure:
+
+| Feature   | Product Area | Quarter | Release | Owner  | Target Date | Status | % Complete |
+| --------- | ------------ | ------- | ------- | ------ | ----------- | ------ | ---------- |
+| Feature A | Search       | Q1      | R1      | Team A | Date        | 🟢     | 100%       |
+| Feature B | AI           | Q2      | R2      | Team B | Date        | 🟡     | 65%        |
+| Feature C | Platform     | Q3      | R3      | Team C | Date        | 🟢     | 45%        |
+
+Every feature should ideally link to its Jira Epic or equivalent.
+
+---
+
+# 9. QUARTERLY DELIVERY section
+
+Create:
+
+## 📅 QUARTERLY DELIVERY
+
+Create a page for each quarter:
+
+Q1
+Q2
+Q3
+Q4
+
+Each quarter page must contain:
+
+### Quarter objectives
+
+| Objective | Target | Actual | Status |
+| --------- | -----: | -----: | ------ |
+
+### Feature delivery
+
+| Feature | Jira Epic | Sprint | Owner | Target | % Complete | Status |
+| ------- | --------- | ------ | ----- | ------ | ---------: | ------ |
+
+### Quarter KPIs
+
+Include:
+
+* Planned Features
+* Completed Features
+* At-Risk Features
+* Releases
+* Sprint Completion
+* Defects
+* Dependencies
+* Risks
+
+### Quarter milestones
+
+Create a timeline.
+
+---
+
+# 10. RELEASE & MILESTONE DASHBOARD
+
+Create:
+
+## 🚀 RELEASE & MILESTONE DASHBOARD
+
+Show:
+
+| Release | Scope | Target Date | Readiness | Status | Owner |
+| ------- | ----- | ----------- | --------- | ------ | ----- |
+
+Include release readiness categories:
+
+* Development
+* SIT
+* UAT
+* Security
+* Architecture
+* Business Approval
+* Production Readiness
+* Deployment
+* Hypercare
+
+Create a readiness percentage.
+
+---
+
+# 11. Sprint dashboard
+
+Create:
+
+## 🏃 SPRINT / DELIVERY DASHBOARD
+
+Integrate with Jira wherever possible.
+
+Show:
+
+* Current Sprint
+* Sprint Goal
+* Planned Story Points
+* Completed Story Points
+* Completion %
+* Carry-over
+* Open Defects
+* Blocked Items
+* Velocity
+* Burndown/Burnup if available
+
+Create a table:
+
+| Sprint | Planned | Completed | Carry-over | Defects | Status |
+| ------ | ------: | --------: | ---------: | ------: | ------ |
+
+Include Jira sprint information rather than manually maintaining it where possible.
+
+---
+
+# 12. RAID Control Center
+
+Create:
+
+## ⚠️ RAID CONTROL CENTER
+
+Create four sections:
+
+### RISKS
+
+| ID | Risk | Probability | Impact | Score | Owner | Mitigation | Due Date | Status |
+| -- | ---- | ----------- | ------ | ----- | ----- | ---------- | -------- | ------ |
+
+### ISSUES
+
+| ID | Issue | Severity | Owner | Due Date | Resolution | Status |
+| -- | ----- | -------- | ----- | -------- | ---------- | ------ |
+
+### DEPENDENCIES
+
+| Dependency | Dependent Team | Required By | Impact | Owner | Status |
+| ---------- | -------------- | ----------- | ------ | ----- | ------ |
+
+### DECISIONS
+
+| Decision ID | Decision | Decision Maker | Date | Impact | Status |
+| ----------- | -------- | -------------- | ---- | ------ | ------ |
+
+Create appropriate RAG/status indicators.
+
+---
+
+# 13. Risk heatmap
+
+Where Confluence supports it, create a simple:
+
+**Probability × Impact**
+
+risk heatmap.
+
+Show:
+
+* Critical
+* High
+* Medium
+* Low
+
+Make critical risks immediately visible.
+
+---
+
+# 14. Next 30 days
+
+Create:
+
+## 📅 NEXT 30 DAYS
+
+Display upcoming:
+
+* Releases
+* Milestones
+* UAT
+* Security reviews
+* Architecture reviews
+* Go-live events
+* Key decisions
+* Critical dependencies
+
+Use a timeline/calendar where supported.
+
+---
+
+# 15. Program timeline
+
+Create:
+
+## PROGRAM MASTER TIMELINE
+
+Show:
+
+Strategy → Feature → Development → Testing → Release → Adoption
+
+The timeline should allow someone to understand the entire program at a glance.
+
+---
+
+# 16. Traceability
+
+This is extremely important.
+
+Create traceability between:
+
+**Strategic Objective**
+↓
+**Roadmap Feature**
+↓
+**Quarter**
+↓
+**Release**
+↓
+**Epic**
+↓
+**Sprint**
+↓
+**Story**
+↓
+**Task**
+
+Where Jira integration is available, use Jira issue links/macros rather than duplicating information.
+
+The Confluence page should become the **management layer**, while Jira remains the **delivery system of record**.
+
+---
+
+# 17. Jira integration
+
+Use native Jira macros and JQL wherever available.
+
+Do NOT manually reproduce Jira information if it can be dynamically displayed.
+
+Create example filters for:
+
+* Open Epics
+* Features by quarter
+* Current sprint
+* Sprint carry-over
+* Blocked issues
+* High-priority issues
+* Critical defects
+* Open dependencies
+* Upcoming releases
+* Overdue items
+* Issues without owners
+
+Use placeholders such as:
+
+`PROJECT = ABC`
+
+when the actual project key is unknown.
+
+Clearly identify every placeholder that I need to replace.
+
+---
+
+# 18. Navigation
+
+At the top of the Program Control Tower create a navigation bar:
+
+**[Control Tower] [Roadmap] [Quarter] [Releases] [Sprints] [RAID] [KPIs] [Resources] [Quality] [Governance]**
+
+Each should link to the corresponding Confluence page.
+
+Use page links or navigation macros where supported.
+
+---
+
+# 19. Executive vs delivery views
+
+The Control Tower should support different audiences.
+
+### Executive
+
+Show:
+
+* Overall health
+* KPIs
+* Roadmap
+* Major milestones
+* Top risks
+* Decisions required
+* Budget
+* Major dependencies
+
+### Program Manager
+
+Show:
+
+* Feature status
+* Quarter delivery
+* Release readiness
+* RAID
+* Dependencies
+* Resource constraints
+* Cross-team blockers
+
+### Delivery Team
+
+Show:
+
+* Sprint
+* Stories
+* Defects
+* Blockers
+* Dependencies
+* Upcoming releases
+
+Do not overload the executive view with sprint-level detail.
+
+Use drill-down pages.
+
+---
+
+# 20. Governance
+
+Create:
+
+## GOVERNANCE & OPERATING RHYTHM
+
+Document:
+
+| Meeting            | Frequency | Participants | Purpose        | Output      |
+| ------------------ | --------- | ------------ | -------------- | ----------- |
+| Program Review     | Weekly    | Leadership   | Overall status | Decisions   |
+| Delivery Review    | Weekly    | Engineering  | Delivery       | Actions     |
+| RAID Review        | Weekly    | PM/Leads     | Risks          | Escalations |
+| Steering Committee | Monthly   | Executives   | Direction      | Decisions   |
+| Quarterly Planning | Quarterly | Leadership   | Roadmap        | Commitments |
+
+---
+
+# 21. Page standards
+
+Every child page should have:
+
+* Page owner
+* Last updated
+* Reporting period
+* Status
+* Links to parent page
+* Links to relevant Jira project/epic
+* Clear purpose
+* Consistent formatting
+
+Use consistent naming:
+
+`00 — PROGRAM CONTROL TOWER`
+
+`01 — STRATEGY & OBJECTIVES`
+
+`02 — PRODUCT / FEATURE ROADMAP`
+
+etc.
+
+---
+
+# 22. Important design rules
+
+Follow these rules strictly:
+
+1. **Do not create a giant wall of text.**
+2. **Use tables and visual components wherever appropriate.**
+3. **Put executive information above the fold.**
+4. **Use RAG status consistently.**
+5. **Use Jira as the delivery source of truth.**
+6. **Avoid manually duplicating Jira data.**
+7. **Use drill-down pages for detailed information.**
+8. **Make risks, issues, dependencies and decisions highly visible.**
+9. **Show trend, not just current status.**
+10. **Show "what changed" from the previous reporting period.**
+11. **Show upcoming milestones.**
+12. **Maintain traceability from roadmap to sprint.**
+13. **Make the design suitable for a large enterprise technology program.**
+14. **Do not invent project data. Use clearly marked placeholders where information is unavailable.**
+15. **Prefer native Confluence/Jira macros over static content.**
+
+---
+
+# 23. Final desired experience
+
+The finished experience should feel like an **enterprise technology Program Control Tower**, not a traditional PMO status report.
+
+The user journey should be:
+
+```text
+                    PROGRAM CONTROL TOWER
+                            │
+        ┌───────────────────┼────────────────────┐
+        │                   │                    │
+    EXECUTIVE            PROGRAM               DELIVERY
+        │                 MANAGER                │
+        ▼                   ▼                    ▼
+     Health             Roadmap              Sprint
+     KPIs               Quarter              Stories
+     Risks              Release              Defects
+     Decisions           RAID                Blockers
+        │                   │                    │
+        └───────────────────┼────────────────────┘
+                            ▼
+                    JIRA / DELIVERY DATA
+```
+
+The key principle is:
+
+**"One Program → One Control Tower → Multiple Views → One Source of Truth."**
+
+Before finishing, review the entire structure as an experienced ITPM and identify any missing component required for enterprise-grade program governance. Add it if necessary.
+
+Do not just describe what should be created.
+
+**Actually create the Confluence pages, tables, sections, navigation, Jira macros/JQL placeholders, and visual structure wherever your available Confluence/Copilot capabilities permit.**
+
+### One important tip
+
+When you give this to Copilot, **don't ask it to "make a Confluence page" only**. The strongest instruction in the prompt is:
+
+> **"Do not just describe what should be created. Actually create the Confluence pages..."**
+
+That pushes it from *advice mode* toward *implementation mode*.
